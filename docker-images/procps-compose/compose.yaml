@@ -1,0 +1,6 @@
+services:
+  debian_procps:
+    image: sabagh/debian_procps:trixie
+    tty: true
+    stdin_open: true
+    container_name: debian_procps-latest
