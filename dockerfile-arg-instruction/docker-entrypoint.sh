@@ -1,5 +1,5 @@
 #! /bin/bash
 
-touch /home/ubuntu/${storage}
+touch /home/ubuntu/${STORAGE}
 
-exec $?
+exec "$@"

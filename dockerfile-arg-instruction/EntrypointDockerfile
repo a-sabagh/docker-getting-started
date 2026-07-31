@@ -1,3 +1,9 @@
 FROM ubuntu:latest
 
-COPY source dest
+ARG STORAGE=data.txt
+
+COPY --chmod=u+x ./docker-entrypoint.sh /usr/local/bin/docker-entrypoint
+
+ENTRYPOINT [ "docker-entrypoint" ]
+
+CMD [ "/bin/bash" ]
