@@ -1,0 +1,7 @@
+ARG VERSION=24.04
+
+FROM ubuntu:${VERSION}
+
+RUN cat /etc/os-release
+
+CMD [ "/bin/bash" ]
