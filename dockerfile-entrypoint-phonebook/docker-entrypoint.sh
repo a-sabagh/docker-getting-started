@@ -2,6 +2,6 @@
 
 set -e 
 
-touch /root/data.txt
+touch ${DATA_STORE}
 
 exec "$@"
