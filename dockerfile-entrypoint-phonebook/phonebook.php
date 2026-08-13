@@ -19,7 +19,7 @@ while(true) {
     sleep(1);
 
     file_put_contents(
-        getenv('DATA_STORE'), 
+        '/root/data.txt', 
         $in . PHP_EOL, 
         FILE_APPEND
     );

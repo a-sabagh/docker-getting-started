@@ -1,6 +1,6 @@
 FROM php:8.4-cli
 
-ENV DATA_STORE='/root/data.txt'
+VOLUME [ "/root" ]
 
 COPY --chmod=u+x docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 
