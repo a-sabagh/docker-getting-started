@@ -1,0 +1,12 @@
+{
+    "name": "a-sabagh/docker-multi-stage-build",
+    "authors": [
+        {
+            "name": "a-sabagh",
+            "email": "a.sabagh72@gmail.com"
+        }
+    ],
+    "require": {
+        "a-sabagh/simple-file-uploader": "^1.1"
+    }
+}

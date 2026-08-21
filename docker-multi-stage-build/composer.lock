@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "de345ae684509ca82b71fc3ae80f372f",
+    "packages": [
+        {
+            "name": "a-sabagh/simple-file-uploader",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/a-sabagh/simple-file-uploader.git",
+                "reference": "f1708c56f015a8d4078e6b245d60035d66c0257d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/a-sabagh/simple-file-uploader/zipball/f1708c56f015a8d4078e6b245d60035d66c0257d",
+                "reference": "f1708c56f015a8d4078e6b245d60035d66c0257d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^10.5 || ^11.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SimpleUploader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Abolfazl Sabagh",
+                    "email": "me@asabagh.ir",
+                    "homepage": "https://asabagh.ir",
+                    "role": "developer"
+                }
+            ],
+            "description": "Simple and Secure PHP File Upload with great options and very light and easy to use.",
+            "keywords": [
+                "file-handling",
+                "files",
+                "uploader"
+            ],
+            "support": {
+                "issues": "https://github.com/a-sabagh/simple-file-uploader/issues",
+                "source": "https://github.com/a-sabagh/simple-file-uploader/tree/1.1"
+            },
+            "time": "2026-08-21T12:59:02+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}
