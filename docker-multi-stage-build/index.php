@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </style>
 </head>
 
-<body>
+<body style="background-color: darksalmon;">
     <h1>Upload files</h1>
 
     <form method="post" enctype="multipart/form-data">
