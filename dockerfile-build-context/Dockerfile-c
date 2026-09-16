@@ -1,0 +1,3 @@
+FROM ubuntu:latest AS app
+
+COPY ./tmp/sample.txt /home/ubuntu
