@@ -1,0 +1,10 @@
+services:
+  noble_numbat:
+    image: ubuntu:24.04
+    command: bash
+    stdin_open: true
+    tty: true
+    hostname: ubuntu_container
+    container_name: noble_container
+    environment:
+      - PROJECT_NAME=${COMPOSE_PROJECT_NAME}
